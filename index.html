@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <h2>Registro de datos importantes</h2>
+  <form id = "miFormulario" onsubmit="return validacion() " >
+    Nombre:
+    <input class="inputall" type="text" id="nombre" required="text"><br><br>
+    Apellido:
+    <input class="inputall" type="text" id="apellido" required="text"><br><br>
+    DNI:
+    <input class="inputall" type="text/number" id="dni" value="" required="number"><br><br>
+    Dirección:
+    <input class="inputall" type="text" id="direccion" value="" required="text"><br><br>
+    <br>
+    <button type = "submit" id= "dato">Enviar datos</button>
+  </form>
+  <p id= "misRespuestas">
+
+  </p>
+<script type="text/javascript"src= "asset/js/js.js"></script>
+</body>
+</html>
